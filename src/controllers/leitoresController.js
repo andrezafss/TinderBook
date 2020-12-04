@@ -2,8 +2,7 @@
 const leitores = require('../models/leitores');
 
 const getAll = (req, res) => {
-  console.log(req.url);
-  leitores.find(function(err, leitores){
+   leitores.find(function(err, leitores){
     if(err) { 
       res.status(500).send({ message: err.message })
     }
@@ -13,9 +12,7 @@ const getAll = (req, res) => {
 
 const getById = (req, res) => {
   const id = req.params.id;
-  //Find sempre retorna uma lista
-  //FindOne retorna um unico documento
-  leitores.find({ id }, function(err, leitores){
+   leitores.find({ id }, function(err, leitores){
     if(err) { 
       res.status(500).send({ message: err.message })
     }
@@ -26,8 +23,6 @@ const getById = (req, res) => {
 
 
 const postLeitor = (req, res) => {
-  console.log(req.body)
-  
   let leitor = new leitores(req.body)
 
   leitor.save(function(err){
@@ -42,8 +37,6 @@ const postLeitor = (req, res) => {
 const deleteLeitor = (req, res) => {
   const id = req.params.id;
 
-  //deleteMany remove mais de um registro
-  //deleteOne remove apenas um registro
   leitores.find({ id }, function(err, leitor){
     if(leitor.length > 0){
       leitores.deleteMany({ id }, function(err){
@@ -73,11 +66,6 @@ const putLeitor = (req, res) => {
 
   leitores.find({ id }, function(err, leitor){
     if(leitor.length> 0){
-      //faz o update apenas para quem respeitar o id passado no parametro
-      // set são os valores que serão atualizados
-      //UpdateMany atualiza vários registros de uma unica vez
-      //UpdateOne atualiza um único registro por vez
-      
       leitores.updateMany({ id }, { $set : req.body }, function (err) {
         if (err) {
           res.status(500).send({ message: err.message })

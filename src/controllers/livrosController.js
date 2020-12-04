@@ -2,13 +2,15 @@
 const livros = require('../models/livros');
 
 const getAll = (req, res) => {
-  console.log(req.url);
-  livros.find(function(err, livros){
-    if(err) { 
-      res.status(500).send({ message: err.message })
-    }
-    res.status(200).send(livros);
+  const parametros = req.query
+  livros.find(parametros, function (err, livros) {
+      if (err) {
+          res.status(500).send({ message: err.message })
+      } else {
+          res.status(200).send(livros)
+      }
   })
+
 };
 
 const getById = (req, res) => {
@@ -22,21 +24,8 @@ const getById = (req, res) => {
     res.status(200).send(livros);
   })
 };
-const getPorNome = (req, res) => {
-    const parametros = req.query.nome
-    livros.find(parametros, function (err, livros) {
-        if (err) {
-            res.status(500).send({ message: err.message })
-        } else {
-            res.status(200).send(livros)
-        }
-    })
-}
-
 
 const postLivro = (req, res) => {
-  console.log(req.body)
-  
   let livro = new livros(req.body)
 
   livro.save(function(err){
@@ -98,7 +87,6 @@ const putLivro = (req, res) => {
 module.exports = {
   getAll,
   getById,
-  getPorNome,
   postLivro,
   deleteLivro,
   putLivro

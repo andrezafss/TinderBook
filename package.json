@@ -4,6 +4,7 @@
   "description": "Projeto de Doação de Livros",
   "main": "server.js",
   "dependencies": {
+    "dotenv-safe": "^8.2.0",
     "mongoose": "^5.11.0"
   },
   "devDependencies": {
@@ -12,7 +13,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
