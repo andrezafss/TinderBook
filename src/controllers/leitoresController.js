@@ -1,4 +1,4 @@
-//apontamento do model que criamos para as Tarefas
+
 const leitores = require('../models/leitores');
 
 const getAll = (req, res) => {
