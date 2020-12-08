@@ -2,14 +2,16 @@
 const livros = require('../models/livros');
 
 const getAll = (req, res) => {
-  livros.find(function (err, livros) {
+  const parametros = req.query
+  livros.find(parametros, function (err, livros) {
       if (err) {
           res.status(500).send({ message: err.message })
       } else {
           res.status(200).send(livros)
       }
   })
-}
+
+};
 
 
 
