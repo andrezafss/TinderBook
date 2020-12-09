@@ -14,9 +14,9 @@ Projeto de Doação de Livros
 
 <P> Diante deste cenário, elaborei uma API chamada TinderBook, onde leitores possam disponibilizar os livros que desejam doar e ao mesmo tempo tenham a possibilidade de encontrar algum livro de seu interesse no mesmo acervo virtual. Para isto basta realizar um cadastro com as informações solicitadas e em seguida cadastrar o(s) livro(s) que deseja doar. Caso queira encontrar algum livro, basta fazer uma simples busca pelo acervo virtual, se alguém estiver doando o livro que deseja, entao é so entrar em contato com a pessoa e combinar a entrega. Se der match...o livro é seu! </P> 
 
-### Pré-requisitos
 
-Ferramentas necessárias:
+### Ferramentas necessárias:
+
 [Git](https://git-scm.com/), [Node.js](https://nodejs.org/pt-br/). 
 
 ### Dependências Utilizadas
