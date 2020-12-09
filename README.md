@@ -1,7 +1,6 @@
 # TinderBook
-
-<h1 align="center">
 Projeto de Doação de Livros
+<h1 align="center">
 <img src="img.jpeg">
 </h1>
 
