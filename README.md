@@ -1,5 +1,8 @@
 # TinderBook
 Projeto de Doação de Livros
+<h1 align="center">
+  <img src="imagem.png">
+</h1>
 
 #### Você sabe o que fazer com aqueles livros guardados que não usa mais?
 
@@ -20,31 +23,31 @@ Ferramentas necessárias:
 
 Express: ```npm install --save express```    
 Nodemon: ```npm install --save-dev nodemon```  	  
-Dotenv-safe: ```npm install --save dotenv-safe```  	 
+Dotenv-safe: ```npm install --save dotenv-safe```
 Mongoose: ```npm install --save mongoose``` 
 
-### Instrução
-
+### Instruções
+```
 # Clone este repositório	
 $ git clone <https://github.com/andrezafss/TinderBook>	
-# Acesse a pasta do projeto no terminal/cmd	
+#Acesse a pasta do projeto no terminal/cmd	
 $ cd TinderBook
 # Instale as dependências	
 $ npm install	
 # Execute a aplicação	
 $ npm start	
-
-## Estrutura	
-
+```
+### Estrutura 
+```
 pasta-do-projeto	
-├── src	├── src
+├── src	
 │   ├── controller	
-│   ├── model	│   
-│   ├── routes	│   
+│   ├── model	   
+│   ├── routes	   
 │   └── index.js	
 ├── server.js	
 ├── package.json
-
+```
 
 ### Rotas Leitores ###
 
