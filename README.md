@@ -1,7 +1,7 @@
 # TinderBook
 Projeto de Doação de Livros
 <h1 align="center">
-  <img src="imagem.png">
+  <img src="img.jpeg">
 </h1>
 
 #### Você sabe o que fazer com aqueles livros guardados que não usa mais?
@@ -44,7 +44,7 @@ pasta-do-projeto
 │   ├── controller	
 │   ├── model	   
 │   ├── routes	   
-│   └── index.js	
+│   └── app.js	
 ├── server.js	
 ├── package.json
 ```
