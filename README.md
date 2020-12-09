@@ -1,7 +1,8 @@
 # TinderBook
-Projeto de Doação de Livros
+
 <h1 align="center">
-  <img src="img.jpeg">
+	 Projeto de Doação de Livros
+	<img src="img.jpeg">
 </h1>
 
 #### Você sabe o que fazer com aqueles livros guardados que não usa mais?
