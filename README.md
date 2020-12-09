@@ -37,10 +37,10 @@ $ npm start
 ### Estrutura 
 ```
 pasta-do-projeto	
-├── src	├── src
+├── src	
 │   ├── controller	
-│   ├── model	│   
-│   ├── routes	│   
+│   ├── model	   
+│   ├── routes	   
 │   └── index.js	
 ├── server.js	
 ├── package.json
