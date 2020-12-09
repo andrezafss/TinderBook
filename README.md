@@ -21,10 +21,10 @@ Ferramentas necessárias:
 
 ### Dependências Utilizadas
 
-Express: ```npm install --save express```    
-Nodemon: ```npm install --save-dev nodemon```  	  
+Express: ```npm install --save express```
+Nodemon: ```npm install --save-dev nodemon```
 Dotenv-safe: ```npm install --save dotenv-safe```
-Mongoose: ```npm install --save mongoose``` 
+Mongoose: ```npm install --save mongoose```
 
 ### Instruções
 ```
