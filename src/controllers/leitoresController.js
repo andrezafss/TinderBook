@@ -2,12 +2,15 @@
 const leitores = require('../models/leitores');
 
 const getAll = (req, res) => {
-   leitores.find(function(err, leitores){
-    if(err) { 
-      res.status(500).send({ message: err.message })
-    }
-    res.status(200).send(leitores);
+  const parametros = req.query
+  leitores.find(parametros, function (err, leitores) {
+      if (err) {
+          res.status(500).send({ message: err.message })
+      } else {
+          res.status(200).send(leitores)
+      }
   })
+
 };
 
 const getById = (req, res) => {
