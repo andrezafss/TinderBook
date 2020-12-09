@@ -34,17 +34,7 @@ $ npm install
 #### Execute a aplicação	
 $ npm start	
 
-## Estrutura	
-````
-pasta-do-projeto	
-├── src	├── src
-│   ├── controller	
-│   ├── model	│   
-│   ├── routes	│   
-│   └── index.js	
-├── server.js	
-├── package.json
-```
+
 
 ### Rotas Leitores ###
 
