@@ -20,21 +20,31 @@ Ferramentas necessárias:
 
 Express: ```npm install --save express```    
 Nodemon: ```npm install --save-dev nodemon```  	  
-Dotenv-safe: ```npm install --save dotenv-safe```  	 
+Dotenv-safe: ```npm install --save dotenv-safe```
 Mongoose: ```npm install --save mongoose``` 
 
-### Instrução
-
-####Clone este repositório	
+### Instruções
+```
+# Clone este repositório	
 $ git clone <https://github.com/andrezafss/TinderBook>	
-##### Acesse a pasta do projeto no terminal/cmd	
+#Acesse a pasta do projeto no terminal/cmd	
 $ cd TinderBook
-#### Instale as dependências	
+# Instale as dependências	
 $ npm install	
-#### Execute a aplicação	
+# Execute a aplicação	
 $ npm start	
-
-
+```
+### Estrutura 
+```
+pasta-do-projeto	
+├── src	├── src
+│   ├── controller	
+│   ├── model	│   
+│   ├── routes	│   
+│   └── index.js	
+├── server.js	
+├── package.json
+```
 
 ### Rotas Leitores ###
 
