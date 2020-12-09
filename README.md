@@ -25,7 +25,7 @@ Mongoose: ```npm install --save mongoose```
 
 ### Instrução
 
-#### Clone este repositório	
+Clone este repositório	
 $ git clone <https://github.com/andrezafss/TinderBook>	
 ##### Acesse a pasta do projeto no terminal/cmd	
 $ cd TinderBook
