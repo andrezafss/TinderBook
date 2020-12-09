@@ -20,12 +20,12 @@ Ferramentas necessárias:
 [Git](https://git-scm.com/), [Node.js](https://nodejs.org/pt-br/). 
 
 ### Dependências Utilizadas
-
-Express: ```npm install --save express```
-Nodemon: ```npm install --save-dev nodemon```
-Dotenv-safe: ```npm install --save dotenv-safe```
-Mongoose: ```npm install --save mongoose```
-
+```
+Express: npm install --save express
+Nodemon: npm install --save-dev nodemon
+Dotenv-safe: npm install --save dotenv-safe
+Mongoose: npm install --save mongoose
+```
 ### Instruções
 ```
 # Clone este repositório	
